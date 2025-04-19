@@ -1,0 +1,19 @@
+[project]
+title = "Video Game Sales"
+version = "0.1.0"
+port = 8501
+slug = "game-sales"  
+entrypoint = "script.py"    
+
+[branding]
+name = "Game Sales"
+logo = "🎮"
+favicon = "🕹️" 
+primaryColor = "#FF5733"
+
+[data.vgsales_csv]
+type = "csv"
+path = "data/vgsales.csv"
+
+[logging]
+level = "INFO"
